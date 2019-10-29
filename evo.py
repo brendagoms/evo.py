@@ -525,3 +525,6 @@ class GeneticAlgorithm(Population):
         plt.grid(alpha=0.3)
         plt.errorbar(self.idx, self.m, self.std, ls=None, color='b', ecolor='g', alpha=0.5)
         plt.show()
+        
+  if (__name__ == "main"):
+    print("Running!")
